@@ -46,8 +46,8 @@ def repeatedCPF(df):
     return repeated_cpf
 
 def menu():
-    print('1- Salvar os CPF repetidos')
-    print('2- Consertar máscara do CPF')
+    print('1- Extrair as linhas com CPFs repetidos em um novo arquivo Excel')
+    print('2- Corrigir a máscara do CPF e salvar em um novo arquivo Excel')
     print('3- Sair')
     opt = int(input('Digite a opção desejada: '))
     return opt
